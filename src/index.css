@@ -20,8 +20,8 @@
 }
 
 body {
-  font-family: 'Avenir', sans-serif;
-  font-family: var(--ff);
+  font-family: 'Avenir', sans-serif !important;
+  font-family: var(--ff) !important;
 }
 
 
