@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 import styles from "./FooterTwo.module.css";
 
@@ -57,13 +56,13 @@ const FooterTwo = () => {
           </ul>
           <ul>
             <li>
-              <Link to="/pricing">Pricing</Link>
+              <a href="/pricing">Pricing</a>
             </li>
             <li>
-              <Link to="/about">About LoveMe</Link>
+              <a href="/about">About LoveMe</a>
             </li>
             <li>
-              <Link to="/contactus">Contact Us</Link>
+              <a href="/contactus">Contact Us</a>
             </li>
           </ul>
         </div>
@@ -121,13 +120,13 @@ const FooterTwo = () => {
       <div className={styles.Bottom}>
         <ul>
           <li>
-            <Link to="/faq">FAQ</Link>
+            <a href="/faq">FAQ</a>
           </li>
           <li>
-            <Link to="/privacypolicy">Privacy Policy</Link>
+            <a href="/privacypolicy">Privacy Policy</a>
           </li>
           <li>
-            <Link to="/termsofservice">Terms & conditions</Link>
+            <a href="/termsofservice">Terms & conditions</a>
           </li>
         </ul>
         <p className={styles.copy}>2022 &copy; Copyright All rights reserved</p>
