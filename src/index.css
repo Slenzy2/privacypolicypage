@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap');
+
 /* font */
   --ff: 'Avenir';
   --ff-bold: 'Avenir-bold';
@@ -20,8 +22,9 @@
 }
 
 body {
-  font-family: 'Avenir', sans-serif !important;
-  font-family: var(--ff) !important;
+  font-family: 'Nunito', sans-serif;
+/*   font-family: 'Avenir', sans-serif !important; */
+/*   font-family: var(--ff) !important; */
 }
 
 
